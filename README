@@ -21,7 +21,7 @@ Description: This module corrects infrared imagery for
 		limb effects based Eqn. 6 in Elmer et al. (2016).
 
 + When citing this module in a publication or presentation, please use the following citation:
-    Elmer, N. J., 2016. Infrared Limb Correction Module, version 2.0.
+    Elmer, N. J., 2016. Infrared Imagery Limb Correction, version 2.0.
 	Accessed DD Month YYYY. [Available online at TBD].
 
 + For more information about the development and use of these correction coefficients
