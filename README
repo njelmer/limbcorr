@@ -22,7 +22,7 @@ Description: This module corrects infrared imagery for
 
 + When citing this module in a publication or presentation, please use the following citation:
     Elmer, N. J., 2016. Infrared Imagery Limb Correction, version 2.0.
-	Accessed DD Month YYYY. [Available online at TBD].
+	Accessed DD Month YYYY. [Available online at https://github.com/njelmer/limbcorr].
 
 + For more information about the development and use of these correction coefficients
   beyond what is provided here, please refer to the following references:
