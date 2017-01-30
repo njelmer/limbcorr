@@ -29,7 +29,7 @@ Description: This module corrects infrared imagery for
 
     Elmer, N. J., E. Berndt, and G. Jedlovec, 2016. Limb correction of MODIS and VIIRS infrared
  	channels for the improved interpretation of RGB composites. J. Atmos. Oceanic Technol.,
- 	Early Online Release, doi:10.1175/JTECH-D-15-0245.1.
+ 	Early Online Release, http://dx.doi.org/10.1175/JTECH-D-15-0245.1.
 
     Elmer, N. J., E. Berndt, and G. Jedlovec, 2017. Limb correction of geostationary infrared
 	imagery in clear and cloudy regions for real-time RGB applications. In preparation.
