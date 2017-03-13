@@ -13,7 +13,8 @@ Version: 2.1  (Last updated June 2016)
 Revision history:
 	Mar 2015	Version 1.0 released
 	May 2016	Updated tables in Version 1.0
-			Created tables for additional sensors and infrared bands 			not included in Version 1.0
+			Created tables for additional sensors and infrared bands 			
+			not included in Version 1.0
 	Jun 2016	Version 2.0 released
 	Mar 2017	GOES Imager limb correction coefficients added (v2.1)
 
