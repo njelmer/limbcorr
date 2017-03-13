@@ -1,0 +1,72 @@
+nje_limbcorr_v2.1
+
+Name:	Infrared Imagery Limb Correction
+
+Author:	Nicholas J. Elmer
+	Department of Atmospheric Science, University of Alabama in Huntsville (UAH)
+	NASA Short-term Prediction Research and Transition (SPoRT) Center
+	Huntsville, Alabama, USA
+	nicholas.j.elmer@nasa.gov
+
+Version: 2.1  (Last updated June 2016)
+
+Revision history:
+	Mar 2015	Version 1.0 released
+	May 2016	Updated tables in Version 1.0
+			Created tables for additional sensors and infrared bands 			not included in Version 1.0
+	Jun 2016	Version 2.0 released
+	Mar 2017	GOES Imager limb correction coefficients added (v2.1)
+
+Description: This module corrects infrared imagery for 
+		limb effects based Eqn. 6 in Elmer et al. (2016).
+
++ When citing this module in a publication or presentation, please use the following citation:
+    Elmer, N. J., 2017. Infrared Imagery Limb Correction, version 2.1.
+	Accessed DD Month YYYY. [Available online at https://github.com/njelmer/limbcorr].
+
++ For more information about the development and use of these correction coefficients
+  beyond what is provided here, please refer to the following references:
+
+    Elmer, N. J., E. Berndt, and G. Jedlovec, 2016. Limb correction of MODIS and VIIRS infrared
+ 	channels for the improved interpretation of RGB composites. J. Atmos. Oceanic Technol.,
+ 	Early Online Release, http://dx.doi.org/10.1175/JTECH-D-15-0245.1.
+
+    Elmer, N. J., E. Berndt, and G. Jedlovec, 2017. Limb correction of geostationary infrared
+	imagery in clear and cloudy regions for real-time RGB applications. In preparation.
+
+
++ Satellites/Sensors supported in this version (v2.0):
+    Limb correction is supported for the following sensors and channels:
+
+	SENSOR	  PLATFORM(S)			CHANNELS
+	=======	  ===========			====================
+	MODIS	  Aqua, Terra			20      27      28  29  30  31      32  33  34  35  36
+	VIIRS	  SNPP				12  13              14      15      16
+	AVHRR	  NOAA-15/18/19,  Metop-A/B 	 3                           4       5
+	SEVIRI    MSG-8/9/10			 4       5       6   7   8   9      10  11
+	ABI	  GOES-16+			 7       8   9  10  11  12  13  14  15  16
+	AHI	  Himawari-8/9			 7       8   9  10  11  12  13  14  15  16
+        GOES_IMAGER  GOES-13/14/15		 2       3                   4           6
+
+    Intercalibration to ABI, AHI, and SEVIRI is supported for the following sensors and channels:
+
+	SENSOR	  PLATFORM(S)			CHANNELS
+	=======	  ===========			====================
+	MODIS	  Aqua, Terra			20      27      28  29  30  31      32
+	VIIRS	  SNPP				12                  14      15      16 (SEVIRI only)
+	AVHRR	  NOAA-15/18/19,  Metop-A/B 	 3                           4       5
+
+
++ Contents:
+
+    nje_limbcorr_v2.1.py
+	The limb correction script (written in Python 2.7). 
+	To load the limb correction function into a Python script, use the following command:
+		from nje_limbcorr import limbcorr
+	For more information, please refer to the nje_limbcorr.py documentation.
+
+    tables	
+	Directory containing lookup tables used by nje_limbcorr_v2.1.py. 
+	These files should not be modified.
+
+
