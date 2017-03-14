@@ -36,7 +36,7 @@ Description: This module corrects infrared imagery for
 	imagery in clear and cloudy regions for real-time RGB applications. In preparation.
 
 
-+ Satellites/Sensors supported in this version (v2.0):
++ Satellites/Sensors supported in this version (v2.1):
     Limb correction is supported for the following sensors and channels:
 
 	SENSOR	  PLATFORM(S)			CHANNELS
